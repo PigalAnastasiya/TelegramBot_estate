@@ -1,4 +1,4 @@
 **/secrets
 __pycache__/
 estate_tbot/
-secrets.py
+*secrets.py
