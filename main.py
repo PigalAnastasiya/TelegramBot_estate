@@ -6,7 +6,7 @@ import spacy
 from bot_handlers import start, handle_message
 from nltk.stem import PorterStemmer
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
-from secrets import TOKEN_ID
+from my_own_secrets import TOKEN_ID
 
 # Основная функция для запуска бота
 def main() -> None:
